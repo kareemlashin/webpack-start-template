@@ -1,0 +1,22 @@
+{
+    "name": "webpack-template",
+    "version": "",
+    "description": "",
+    "scripts": {
+        "build": "webpack",
+        "watch": "npm run build  --watch",
+        "start": "webpack-dev-server"
+    },
+    "keywords": [
+        "webpack 4",
+        "webpack-dev-server",
+        "browser reload on change"
+    ],
+    "author": "",
+    "license": "",
+    "devDependencies": {
+        "webpack": "^4.28.2",
+        "webpack-cli": "^3.1.2",
+        "webpack-dev-server": "^3.1.14"
+    }
+}
